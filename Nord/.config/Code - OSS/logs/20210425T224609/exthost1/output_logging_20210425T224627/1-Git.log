@@ -1,0 +1,131 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/nyarlathotep/.oh-my-zsh
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/.oh-my-zsh/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/nyarlathotep/Arch_BSPWM_dotfiles
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/nyarlathotep/polybar-themes
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/polybar-themes/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/config.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/config.ini
+> git cat-file -s 3f8e40943336c941d60555ee831a78dc77dd2f13
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/config.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/config.ini
+> git cat-file -s 3f8e40943336c941d60555ee831a78dc77dd2f13
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/config.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/config.ini
+> git cat-file -s 3f8e40943336c941d60555ee831a78dc77dd2f13
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/config.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/config.ini
+> git cat-file -s 3f8e40943336c941d60555ee831a78dc77dd2f13
+> git check-ignore -v -z --stdin
+> git show --textconv :Gruvbox/.config/polybar/forest/scripts/styles.sh
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/scripts/styles.sh
+> git cat-file -s 35899a96a9aebc4fc9ce5600747045d629a3fedb
+> git check-ignore -v -z --stdin
+> git show --textconv :Gruvbox/.config/polybar/forest/scripts/rofi/launcher.rasi
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/scripts/rofi/launcher.rasi
+> git cat-file -s 6c5b83dc65dbe331eef01add7114cb003302763d
+> git show --textconv :Gruvbox/.config/polybar/forest/scripts/rofi/message.rasi
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/scripts/rofi/message.rasi
+> git cat-file -s 4c7ef7f27fb346142a767cf439d990e48886fd8d
+> git show --textconv :Gruvbox/.config/polybar/forest/scripts/rofi/networkmenu.rasi
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/scripts/rofi/networkmenu.rasi
+> git cat-file -s 012e1ea8ffd50086ff752a4d64bebabf3464b003
+> git show --textconv :Gruvbox/.config/polybar/forest/bars.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/bars.ini
+> git cat-file -s 06b6edad13fa26c73b9e22abdeb6d8d92406a854
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/bars.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/bars.ini
+> git cat-file -s 06b6edad13fa26c73b9e22abdeb6d8d92406a854
+> git show --textconv :Gruvbox/.config/polybar/forest/config.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/config.ini
+> git cat-file -s 3f8e40943336c941d60555ee831a78dc77dd2f13
+> git show --textconv :Gruvbox/.config/polybar/forest/user_modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/user_modules.ini
+> git cat-file -s 507db1fd27ba1dd60cd900c38ec5f0a509c91af8
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/config.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/config.ini
+> git cat-file -s 3f8e40943336c941d60555ee831a78dc77dd2f13
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/preview.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/preview.ini
+> git cat-file -s bcd553fe862745d3cc8198925bd8aed417f8a66f
+> git show --textconv :Gruvbox/.config/polybar/forest/config.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/config.ini
+> git cat-file -s 3f8e40943336c941d60555ee831a78dc77dd2f13
+> git show --textconv :Gruvbox/.config/polybar/forest/bars.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/bars.ini
+> git cat-file -s 06b6edad13fa26c73b9e22abdeb6d8d92406a854
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/bars.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/bars.ini
+> git cat-file -s 06b6edad13fa26c73b9e22abdeb6d8d92406a854

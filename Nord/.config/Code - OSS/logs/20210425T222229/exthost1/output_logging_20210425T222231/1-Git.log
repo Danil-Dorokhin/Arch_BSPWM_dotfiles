@@ -1,0 +1,144 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/nyarlathotep/.oh-my-zsh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/.oh-my-zsh/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/nyarlathotep/Arch_BSPWM_dotfiles
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :Gruvbox/.xinitrc
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.xinitrc
+> git cat-file -s 52713e6ec411b5574169be1bd4af6fa197facc6d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git show --textconv :Gruvbox/.config/polybar/forest/config.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/config.ini
+> git cat-file -s 3f8e40943336c941d60555ee831a78dc77dd2f13
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git rev-parse --git-dir
+Open repository: /home/nyarlathotep/polybar-themes
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/polybar-themes/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/polybar-themes/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :Gruvbox/.config/polybar/forest/config.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/config.ini
+> git cat-file -s 3f8e40943336c941d60555ee831a78dc77dd2f13
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2
+> git check-ignore -v -z --stdin
+> git show --textconv :setup.sh
+> git ls-files --stage -- /home/nyarlathotep/polybar-themes/setup.sh
+> git cat-file -s f8601c965c3282994e9d0922ffccbd8a7179a9b2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/polybar-themes/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/polybar-themes/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :Gruvbox/.config/polybar/forest/modules.ini
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.config/polybar/forest/modules.ini
+> git cat-file -s 3f5b2cae7f24ee1f6f0af1c44fe79f15e1041bb2

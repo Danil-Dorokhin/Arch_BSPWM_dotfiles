@@ -1,0 +1,145 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/nyarlathotep/.oh-my-zsh
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/.oh-my-zsh/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/nyarlathotep/Arch_BSPWM_dotfiles
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :dmenu-5.0/config.h
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/dmenu-5.0/config.h
+> git cat-file -s 752d9c35e10b29457806ba0b69e1c5edae3eeb58
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :dmenu-5.0/config.mk
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/dmenu-5.0/config.mk
+> git cat-file -s 05d5a3e801e838c6a8a5e02834d63dd880bd66da
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nyarlathotep/Arch_BSPWM_dotfiles/dmenu-5.0/dmenu
+> git show --textconv :dmenu-5.0/dmenu_path
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/dmenu-5.0/dmenu_path
+> git cat-file -s 3a7cda79273778642accd4221aa6f1419a1f221d
+> git show --textconv :dmenu-5.0/dmenu_run
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/dmenu-5.0/dmenu_run
+> git cat-file -s 834ede54fc6f465e45ab9a0930f49b6566201fd9
+> git show --textconv :dmenu-5.0/config.h
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/dmenu-5.0/config.h
+> git cat-file -s 752d9c35e10b29457806ba0b69e1c5edae3eeb58
+> git show --textconv :dmenu-5.0/config.def.h
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/dmenu-5.0/config.def.h
+> git cat-file -s 7319997dd656375078a327e5c362b169caec0924
+> git check-ignore -v -z --stdin
+> git show --textconv :dmenu-5.0/dmenu-gruvbox-20210329-9ae8ea5.diff
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/dmenu-5.0/dmenu-gruvbox-20210329-9ae8ea5.diff
+> git cat-file -s f3b5ec1bc907ff6c1fe6f58208341c29fa17cf65
+> git show --textconv :dmenu-5.0/config.h
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/dmenu-5.0/config.h
+> git cat-file -s 752d9c35e10b29457806ba0b69e1c5edae3eeb58
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/nyarlathotep/Arch_BSPWM_dotfiles/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :Gruvbox/.xinitrc
+> git ls-files --stage -- /home/nyarlathotep/Arch_BSPWM_dotfiles/Gruvbox/.xinitrc
+> git cat-file -s 52713e6ec411b5574169be1bd4af6fa197facc6d

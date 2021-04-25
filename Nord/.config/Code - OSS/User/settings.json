@@ -1,0 +1,11 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Nord",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "'Fira Code'",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.menuBarVisibility": "compact",
+    "workbench.statusBar.visible": false
+}

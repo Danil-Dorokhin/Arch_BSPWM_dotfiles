@@ -1,0 +1,339 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+[bar]
+fill = ⏽
+empty = ⏽
+indicator = 
+; Nerd font :   ,  ⏽,  樂 籠 錄 , 雷 絛
+
+[colors]
+mute= #8fbcbb
+green = #a3be8c
+red = #bf616a
+yellow = #ebcb8b 
+background = #3b4252
+foreground = #e5e9f0
+highlight = #81A1C1
+underline-one = #A3BE8C
+underline-two = #ebcb8b
+underline-tree = #d08770
+underline-four = #bf616a
+
+;  _                    
+; | |__   __ _ _ __ ___ 
+; | '_ \ / _` | '__/ __|
+; | |_) | (_| | |  \__ \
+; |_.__/ \__,_|_|  |___/
+
+[bar/base]
+enable-ipc = true
+font-0=CozetteVector:pixelsize=11;2
+font-1=FontAwesome5Free:style=Solid:pixelsize=15:antialias=true;2
+font-2=IPAGothic:style=Regular:size=10:antialias=true;3
+font-3 = "Iosevka Nerd Font:size=10;4"
+font-4 = "Iosevka Nerd Font:size=10;3"
+font-5 = "feather:size=12;3"
+
+padding = 2
+border-size = 0
+border-color = ${colors.foreground}
+
+height = 30
+radius = 3
+;Works very well with a radius like this! Put it on every bar.
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+override-redirect=false
+offset-y = 5
+
+wm-restack = bspwm
+
+[bar/ws]
+inherit = bar/base
+width = 11%
+
+
+offset-x = 10
+line-size = 2
+
+modules-left = bspwm
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+[bar/music]
+inherit = bar/base
+enable-ipc = true
+width = 20%
+padding-left=0
+
+offset-x = 40.5%
+
+; Spotify (uses playerctl)
+modules-left = previous playpause next 
+modules-center = spotify
+; Mpd
+;modules-center = mpd
+
+[bar/tray]
+inherit = bar/base
+width = 18,5%
+line-size = 1
+
+offset-x = 81.5%
+
+modules-left = xkeyboard volume time
+
+;                      _       _           
+;  _ __ ___   ___   __| |_   _| | ___  ___ 
+; | '_ ` _ \ / _ \ / _` | | | | |/ _ \/ __|
+; | | | | | | (_) | (_| | |_| | |  __/\__ \
+; |_| |_| |_|\___/ \__,_|\__,_|_|\___||___/                          
+
+[module/wsnumber]
+type = custom/script
+exec = bspc query -D -d focused --names
+tail = true
+interval = 0
+format-margin = 2
+format = "<label>"
+scroll-up = bspc desktop -f next
+scroll-down = bspc desktop -f prev
+
+;;===========================================
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:33:...%
+label-margin = 2
+
+;;===========================================
+
+[module/bspwm]
+type = internal/bspwm
+reverse-scroll = false
+
+label-focused = %name%
+label-focused-underline = ${colors.highlight}
+label-focused-foreground = ${colors.highlight}
+label-focused-padding = 1
+
+label-occupied = %name%
+label-occupied-foreground = ${colors.highlight}
+label-occupied-padding = 1
+
+label-empty = %name%
+label-empty-padding = 1
+
+;;===========================================
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+blacklist-1 = caps lock
+format-prefix = " "
+format-margin = 2
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = ${colors.underline-four}
+label-layout = %layout%
+label-layout-underline = ${colors.underline-four}
+
+;;===========================================
+
+[module/time]
+type = internal/date
+interval = 10
+format-margin = 0
+
+time = "%H:%M"
+date = "%a %d %b"
+
+label = %date%, %time%
+label-foreground = ${colors.foreground}
+label-underline= ${colors.underline-two}
+label-background = ${colors.background}
+label-padding = 2
+label-margin = 2
+
+;;===========================================
+
+[module/volume]
+type = internal/alsa
+
+; Soundcard to be used
+; Usually in the format hw:# where # is the card number
+; You can find the different card numbers in `/proc/asound/cards`
+master-soundcard = default
+speaker-soundcard = default
+headphone-soundcard = default
+
+; Name of the master, speaker and headphone mixers
+; Use the following command to list available mixer controls:
+; $ amixer scontrols | sed -nr "s/.*'([[:alnum:]]+)'.*/\1/p"
+; If master, speaker or headphone-soundcard isn't the default, 
+; use `amixer -c # scontrols` instead where # is the number 
+; of the master, speaker or headphone soundcard respectively
+;
+; Default: Master
+master-mixer = Master
+
+; Optionally define speaker and headphone mixers
+; Default: none
+;;speaker-mixer = Speaker
+; Default: none
+;;headphone-mixer = Headphone
+
+; NOTE: This is required if headphone_mixer is defined
+; Use the following command to list available device controls
+; $ amixer controls | sed -r "/CARD/\!d; s/.*=([0-9]+).*name='([^']+)'.*/printf '%3.0f: %s\n' '\1' '\2'/e" | sort
+; You may also need to use `amixer -c # controls` as above for the mixer names
+; Default: none
+;;headphone-id = 9
+
+; Use volume mapping (similar to amixer -M and alsamixer), where the increase in volume is linear to the ear
+; Default: false
+;;mapped = true
+
+; Interval for volume increase/decrease (in percent points)
+; Default: 5
+interval = 5
+
+; Available tags:
+;   <label-volume> (default)
+;   <ramp-volume>
+;   <bar-volume>
+format-volume = <ramp-volume> <bar-volume>
+
+; Available tags:
+;   <label-muted> (default)
+;   <ramp-volume>
+;   <bar-volume>
+format-muted = <bar-volume>
+
+format-muted-prefix = 
+format-muted-prefix-margin-right=1
+format-muted-prefix-margin-left=2
+format-muted-margin = 2
+
+
+format-muted-prefix-foreground = ${colors.red}
+format-muted-underline= ${colors.red}
+
+; Available tokens:
+;   %percentage% (default)
+label-volume = %percentage%%
+
+; Available tokens:
+;   %percentage% (default
+label-muted = " Muted"
+label-muted-foreground = ${colors.red}
+
+; Only applies if <ramp-volume> is used
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-foreground = ${colors.blue}
+
+; Only applies if <bar-volume> is used
+bar-volume-format = "%fill%%indicator%%empty%"
+bar-volume-width = 11
+bar-volume-gradient = false
+
+bar-volume-indicator = ${bar.indicator}
+bar-volume-indicator-foreground = ${colors.foreground}
+bar-volume-indicator-font = 2
+
+bar-volume-fill = ${bar.fill}
+bar-volume-fill-font = 2
+bar-volume-foreground-0 = ${colors.green}
+bar-volume-foreground-1 = ${colors.green}
+bar-volume-foreground-2 = ${colors.green}
+bar-volume-foreground-3 = ${colors.green}
+bar-volume-foreground-4 = ${colors.green}
+
+format-volume-padding=2
+format-mute-padding=2
+
+format-volume-margin=2
+
+format-volume-underline = ${colors.green}
+
+bar-volume-empty = ${bar.empty}
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${color.sep}
+
+; If defined, it will replace <ramp-volume> when
+; headphones are plugged in to `headphone_control_numid`
+; If undefined, <ramp-volume> will be used for both
+; Only applies if <ramp-volume> is used
+ramp-headphones-0 = 
+
+;;===========================================
+
+[module/previous]
+type = custom/script
+format-background = ${colors.foreground}
+format-foreground = ${colors.background}
+
+exec = echo " "
+click-left = "playerctl previous"
+
+
+[module/next]
+type = custom/script
+format-background = ${colors.foreground}
+format-foreground = ${colors.background}
+exec = echo "  "
+click-left = "playerctl next"
+
+[module/playpause]
+type = custom/script
+exec = ~/.config/polybar/spotifystatus.sh
+format-padding = 1
+format-background = ${colors.foreground}
+format-foreground = ${colors.background}
+tail = true
+interval = 0
+click-left = "playerctl -p spotify play-pause"
+
+
+[module/spotify]
+format-font=1
+type = custom/script
+exec = ~/.config/polybar/spotifyname.sh
+format-padding = 0
+
+tail = true
+interval = 1
+
+;;===========================================
+
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+;pseudo-transparency = true
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+; vim:ft=dosini

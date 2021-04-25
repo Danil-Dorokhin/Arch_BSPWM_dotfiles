@@ -11,13 +11,13 @@ static const char *fonts[] = {
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#ebdbb2", "#282828" },
-	[SchemeSel] = { "#ebdbb2", "#98971a" },
-	[SchemeOut] = { "#ebdbb2", "#8ec07c" },
+	[SchemeNorm] = { "#e5e9f0", "#2e3440" },
+	[SchemeSel] = { "#e5e9f0", "#5e81ac" },
+	[SchemeOut] = { "#e5e9f0", "#81a1c1" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines      = 0;
-static unsigned int lineheight = 0;         /* -lh option; minimum height of a menu line 
+static unsigned int lines      = 20;
+static unsigned int lineheight = 30;         /* -lh option; minimum height of a menu line 
 /*
  * Characters not considered part of a word while deleting words
  * for example: " /?\"&[]"
@@ -25,4 +25,4 @@ static unsigned int lineheight = 0;         /* -lh option; minimum height of a m
 static const char worddelimiters[] = " ";
 
 /* Size of the window border */
-static const unsigned int border_width = 5;
+static const unsigned int border_width = 2;

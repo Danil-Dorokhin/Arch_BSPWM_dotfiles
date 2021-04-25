@@ -1,0 +1,9 @@
+[2021-04-25 22:22:29.672] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2021-04-25 22:33:36.548] [main] [error] [uncaught exception in main]: Error: SharedProcess: crashed (detail: killed)
+[2021-04-25 22:33:36.548] [main] [error] Error: SharedProcess: crashed (detail: killed)
+    at /usr/lib/code/out/vs/code/electron-main/main.js:56:67913
+    at E.fire (/usr/lib/code/out/vs/code/electron-main/main.js:16:1836)
+    at /usr/lib/code/out/vs/code/electron-main/main.js:14:46973
+    at E.fire (/usr/lib/code/out/vs/code/electron-main/main.js:16:1836)
+    at Object.<anonymous> (/usr/lib/code/out/vs/code/electron-main/main.js:55:9050)
+    at Object.emit (events.js:327:22)
